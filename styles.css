@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 385px) {
+    .container{
+        background-color: hsl(233, 47%, 7%);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+    }
+    
+    .card{
+        margin: auto;
+        position: relative;
+        top:150px;
+        width: 1000px;
+        height: 450px;
+        background-color: hsl(244, 38%, 16%);
+        overflow: hidden;
+        border-radius: 5px;
+        display: flex;
+    }
+    
+    .card-content{
+        width: 50%;
+    }
+    
+    .image{
+        position: relative;
+        background-color: hsl(277, 64%, 61%);
+        overflow: hidden;
+    }
+    
+    .imag{
+        opacity: 0.5;
+        height: 450px;
+        max-width: 100%;
+        min-height: 100%;
+    }
+    
+    span{
+        color: hsl(277, 64%, 61%); ;
+    }
+    
+    .card-content{
+        margin: 50px 100px 10px 100px; 
+    }
+    
+    .card-title{
+        margin-bottom: 30px;
+    }
+    .card-title h2{
+        color: hsl(0, 0%, 100%);
+        font-family: Inter , 'sans-serif';
+        font-weight: 700;
+        font-size: 2rem;
+        word-spacing: 2px;
+    }
+    
+    .card-description{
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 2rem;
+        word-spacing: 2px;
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 30px;
+    }
+    
+    .card-list{
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .card-list-item{
+        margin-right: 50px;
+    }
+    
+    .card-list-item h2{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 2rem;
+        font-family: Inter 'sans-serif';
+        font-weight: 700;
+        
+    }
+    
+    .card-list-item p{
+        font-size: 1.2rem;
+        color: hsla(0, 0%, 100%, 0.45);
+    }
+  }
+
+
+
+
+
+@media only screen and (max-width: 385px) {
+    .container{
+        background-color: hsl(233, 47%, 7%);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .card{
+        margin: 50px 20px 50px 20px;
+        position: relative;
+        width: 90%;
+        height: 80%;
+        background-color: hsl(244, 38%, 16%);
+        overflow: hidden;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card-content{
+        height: 60%;
+    }
+
+    .image{
+        position: relative;
+        background-color: hsl(277, 64%, 61%);
+        overflow: hidden;
+        height: 60%;
+    }
+
+    .imag{
+        opacity: 0.5;
+        background-size: cover;
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    span{
+        color: hsl(277, 64%, 61%); ;
+    }
+
+    .card-content{
+        margin: 20px 10px 10px 10px;
+    }
+
+    .card-title{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .card-title h2{
+        color: hsl(0, 0%, 100%);
+        font-family: Inter , 'sans-serif';
+        font-weight: 700;
+        font-size: 1.6rem;
+        word-spacing: 2px;
+    }
+
+    .card-description{
+        margin-top: 5px;
+        padding:15px;
+        font-size: 16px;
+        line-height: 2rem;
+        word-spacing: 2px;
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 15px;
+    }
+    
+    .card-list{
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+    }
+  }
+
